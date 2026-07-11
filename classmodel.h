@@ -11,10 +11,10 @@ class ClassModel{
     vector<string> methods; //لتخزين الدوال
     public:
     ClassModel(){}
-    ClassModel(string name, string base=" "):className(name),baseClass(base){}
-    (Getters & Setters)
+    ClassModel(const string& name,const string& base=" "):className(name),baseClass(base){}
+    //(Getters & Setters)
     void setClassName(const string& name){className = name;}
-    string getClassName()const{return ClassName;}
+    string getClassName()const{return className;}
     void setBaseClass(const string& base){baseClass = base;}
     string getBaseClass()const {return baseClass;}
     void addAttribute(const string& attr){attributes.push_back(attr);}
