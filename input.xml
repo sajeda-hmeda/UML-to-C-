@@ -1,0 +1,8 @@
+<diagram>
+    <class name="Person">
+        <attribute name="name" type="string"/>
+        <attribute name="age" type="int"/>
+        <method name="getName" type="string"/>
+        <method name="getAge" type="int"/>
+    </class>
+</diagram>
